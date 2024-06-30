@@ -24,6 +24,11 @@
 	src: url("../assets/fonts/manrope/Manrope-VariableFont_wght.ttf");
 }
 
+body {
+	width: 100vw;
+	overflow-x: hidden;
+}
+
 .circledSection {
 	position: absolute;
 	animation: animate 17.5s linear infinite;

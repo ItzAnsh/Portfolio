@@ -26,7 +26,7 @@ const Navbar = () => {
 		},
 	];
 	return (
-		<div className="fixed">
+		<div className="fixed z-[999]">
 			<div className="px-[8.75rem] w-screen bg-white">
 				<div className="flex justify-between items-center py-[15px] w-full">
 					<div className="grayscale bg-white/30">

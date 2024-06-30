@@ -2,22 +2,20 @@
 
 import Image from "next/image";
 import ReactCurvedText from "react-curved-text";
+import TextMan50 from "@/components/global/TextComponents/TextMan50";
 
 const Section1 = () => {
 	const text =
 		"align here to play the reel 2024 . align here to play the reel 2024 . align here to play the reel 2024 .";
 	return (
-		<div className="px-[8.75rem]">
+		<div className="px-[8.75rem] z-10">
 			<div className="flex flex-col">
 				<h1 className="text-[27.87rem] font-[thunder] font-[900]">I'M ANSH</h1>
 			</div>
 
 			<div className="flex justify-between">
 				<div className="flex flex-col justify-between font-[manrope] w-full h-full gap-y-[3.56rem] py-16">
-					<h2 className="font-[600] text-[3.125rem] leading-[3.24rem]">
-						Elevating brand identities, systems, and apps through collaborative
-						motion design.
-					</h2>
+					<TextMan50 text="Elevating brand identities, systems, and apps through collaborative motion design." />
 
 					<div className="w-fit flex flex-col gap-y-[0.56rem]">
 						<h1 className="font-[500] text-[1.75rem] ">
