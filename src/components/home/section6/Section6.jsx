@@ -1,10 +1,11 @@
 import React from "react";
-import { gsap } from "gsap-trial";
+import { gsap } from "gsap";
 
 /* The following plugin is a Club GSAP perk */
-import { MorphSVGPlugin } from "gsap-trial/MorphSVGPlugin";
+// import { MorphSVGPlugin } from "gsap-trial/MorphSVGPlugin";
 import { useGSAP } from "@gsap/react";
-import { ScrollTrigger } from "gsap-trial/ScrollTrigger";
+// import { ScrollTrigger } from "gsap-trial/ScrollTrigger";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Anchor from "./subComponents/anchor/Anchor";
 import Phone from "./subComponents/phone/Phone";
 import Desktop from "./subComponents/desktop/Desktop";
